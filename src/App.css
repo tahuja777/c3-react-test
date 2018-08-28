@@ -1,0 +1,23 @@
+h1{
+    font-size: 36px;
+    color: #007FA3;
+    margin: 50px 0 40px 40px;
+}
+.users-list-box{
+    width: 100%;
+    background-color: #D8D8D8;
+}
+.inner-user-box{
+    width: 58%;
+    margin: auto;
+}
+.users-box{		
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.no-user-msg{
+    color: #E93939;
+    font-size: 20px;
+}
