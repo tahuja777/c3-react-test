@@ -81,14 +81,14 @@ describe("Users API Error", () => {
           let mockObj = {
                           data : null
                           }
-          return Promise.resolve(mockObj)
+          return Promise.reject(mockObj)
         },
         status: 404}));
         usersWrapper = shallow(<Users />);   
     
   });
 
-  test("should not render when problem with API", () => {
+  test("should have no impact when problem with API", () => {
     expect(usersWrapper).toMatchSnapshot();
   });
 });
